@@ -38,8 +38,10 @@ I hope this project will provide all users with 3 pages including a home page pa
 -developer goals
 -user stories (new, existing)
 -design choices
--wireframes (3 per page)
 
+I used [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9bmABhBbEiwASb35VwUP86nusbRkDn2_oK45Wc06sE-LKld8DUd5znTuQObwilsvALXI5RoCda0QAvD_BwE) for my project wireframes.
+Below is a link to my wireframes for all three pages of my website. 
+[Link to my wireframes]
 ## Features
 -existing features
 -features left to implement
