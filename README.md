@@ -35,13 +35,15 @@ As a developer I want:
 5. A Navigation bar which will be simple for customers to follow and one which will stick to the screen
 
 I hope this project will provide all users with 3 pages including a home page packed with information, a gallery page and a page with a timetable including a signup form.
--developer goals
--user stories (new, existing)
--design choices
+
+## Wireframes
 
 I used [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9bmABhBbEiwASb35VwUP86nusbRkDn2_oK45Wc06sE-LKld8DUd5znTuQObwilsvALXI5RoCda0QAvD_BwE) for my project wireframes.
 Below is a link to my wireframes for all three pages of my website. 
-[Link to my wireframes]
+
+https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%20wireframes%20pdf.pdf
+
+
 ## Features
 -existing features
 -features left to implement
