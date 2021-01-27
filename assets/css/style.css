@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+body {
+    font-family: lato;
+}
+
+img {
+    float: left;
+    
+}
+
+#menu {
+    font-size: 2em;
+    letter-spacing: 4px;
+} 
+#menu li {
+    float:right;
+}
