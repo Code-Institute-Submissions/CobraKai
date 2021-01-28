@@ -4,15 +4,60 @@ body {
     font-family: lato;
 }
 
+
+ 
 img {
     float: left;
+    height: 175x;
+    width: 175px;
     
 }
 
 #menu {
-    font-size: 2em;
-    letter-spacing: 4px;
+    font-size:25px;
+    letter-spacing: 3px;
+    list-style-type: none;
+    
 } 
 #menu li {
     float:right;
+    margin-right:30px;
+    margin-top:30px;
+    }
+
+    a {
+        color:rgba(196, 25, 25, 0.938);
+        font-weight:bold;
+        text-decoration:none;
+    }
+
+   #menu a:hover {
+       border-bottom: 1px solid;
+   }
+
+   .active {
+       border-bottom: 1px solid;
+   }
+
+
+   <!---footer-->
+
+footer {
+    height:150px;
+}
+
+.social-networks {
+text-align:center;
+
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size:160%;
+    margin:1%;
+    padding:5%;
+    color: #777777;
 }
