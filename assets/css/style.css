@@ -2,27 +2,48 @@
 
 body {
     font-family: lato;
+    max-width:1024px;
+    margin:auto;
 }
 
 
  
-img {
-    float: left;
-    height: 175x;
-    width: 175px;
-    
+
+
+#logo {
+    display:inline-block;
+    width: 29.5%;
+
 }
 
+#logo img {
+    display:inline-block;
+    height: 175x;
+    width: 175px;
+    margin-left: 40px;
+}
 #menu {
     font-size:25px;
     letter-spacing: 3px;
     list-style-type: none;
+    display:inline-block;
     
-} 
+}
+
+nav {
+    display: inline-table;
+    vertical-align: top;
+    width: 70%;
+    text-align: right;
+}
+    
+    
+
 #menu li {
-    float:right;
+    display:inline;
     margin-right:30px;
     margin-top:30px;
+    
     }
 
     a {
@@ -39,8 +60,34 @@ img {
        border-bottom: 1px solid;
    }
 
+   /*about our instructors*/
+   
 
-   <!---footer-->
+.instructors {
+    list-style-type:none;
+}
+
+
+.instructor .instructor-description {
+    vertical-align: top;
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.instructor img {
+    margin-right: 40px;
+}
+
+.instructor {
+    margin-bottom: 50px;
+}
+
+
+
+
+/* footer */
 
 footer {
     height:150px;
