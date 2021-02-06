@@ -18,9 +18,11 @@ body {
 
 #logo img {
     display:inline-block;
-    height: 175x;
-    width: 175px;
-    margin-left: 40px;
+    height: 250px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left:-125px;
+
 }
 #menu {
     font-size:25px;
@@ -70,14 +72,17 @@ nav {
 
 .instructor .instructor-description {
     vertical-align: top;
-    width: 75%;
+    width: 100%;
     text-align: center;
     display: inline-block;
 
 }
 
 .instructor img {
-    margin-right: 40px;
+    margin-left: 350px;
+    height:180px;
+    width:250px;
+    margin-bottom:15px;
 }
 
 .instructor {

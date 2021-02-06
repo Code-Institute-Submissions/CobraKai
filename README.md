@@ -67,6 +67,8 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 ## Credits
 -code from online, media etc
+https://punchermedia.com/what-is-karate/ information on karate
+https://en.wikipedia.org/wiki/John_Kreese- info on instructors
 
 ## Acknowledgement
 
