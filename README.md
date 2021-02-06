@@ -3,10 +3,25 @@
  This project was designed to allow younger age groups to learn more about karate and hopefully sign up to lessons. This webpage will allow users to read about karate, Cobra Kai in particular, look at the gallery, see timetables for lessons and to sign up for classes if they wish.
 As the developer i designed this project following watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
 
+## Contents
+
+* UX
+    * User Goals
+    * User Stories
+    * User Requirements and Expectations
+* Features
+    * Features that have been developed
+    * Features that will be implemented in the future
+* Testing
+* Bugs
+* Deployment
+* Credit
+
+
 ## UX
 The target audience for this project is aimed at teenagers. It will also include parents of these children who wish to sign up for karate.
 
-As a new customer I want:
+As a new customer:
 1. I want to read information on the type of karate learnt as this company
 2. I want to see photographs to give me an idea of what to expect within the premises
 3. I want to be able to see a timetable with classes and timetables
@@ -45,18 +60,43 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 
 ## Features
--existing features
+* Logo of the company which when clicked will return the user to the index.html page
+* Navigation bar which when hovered over will underline each page and will keep the page the user is on underlined
+* Social media icons which when clicked will take the user to a new page and open up the social media page
+* Consistent header and footers along each page of the webpage
+
+
+
+
+
 -features left to implement
 
 ## Technologies Used
--HTML, CSS, bootstrap, google fonts, font awesome icons
+* I used [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) languages for writing the code in this project.
+
+* [Google Fonts](https://fonts.google.com) was used to style the font within my project. Lato font was used for the text.
+* [Font awesome icons](https://fontawesome.com/icons?d=gallery) were used to add icons to the social media links in the footer.
+
 
 ## Bugs Discovered
+
+* Index.html
+    * Images were square so i changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
+
+    * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked which was 12px. [here](assets/images/social-media-icons-after.png).
+
+
+
+
+
+
+
 -description of bug
 -how you solved it
 -snippets of code before and after
 
 ## Testing
+
 -CSS validator, HTML validator
 -testing client stories from UX section
 -expected, testing, result, fix
@@ -69,6 +109,8 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 -code from online, media etc
 https://punchermedia.com/what-is-karate/ information on karate
 https://en.wikipedia.org/wiki/John_Kreese- info on instructors
+google images for pictures of instructors
+
 
 ## Acknowledgement
 
