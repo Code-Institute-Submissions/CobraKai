@@ -4,6 +4,7 @@ body {
     font-family: lato;
     max-width:1024px;
     margin:auto;
+    background-color:silver;
     
     
 
@@ -81,6 +82,10 @@ nav {
 
 }
 
+.instructor-description {
+    margin-bottom:-54px;
+}
+
 .instructor img {
     margin-left: 316px;
     height:215px;
@@ -90,6 +95,18 @@ nav {
     border-radius:50%;
 }
 
+.champions img {
+    margin-left: 316px;
+    height:215px;
+    width:320px;
+    margin-bottom:15px;
+    margin-top:40px;
+    border-radius:50%;
+}
+
+.champions li {
+    list-style-type: none;
+}
 .instructor {
     margin-bottom: 50px;
 }
@@ -103,6 +120,7 @@ p {
 h2 {
     text-align:center;
     color:red;
+    font-size:30px;
 }
 
 
@@ -112,6 +130,11 @@ h2 {
      list-style-type:none;
      text-align:center;
      font-size:20px;
+     margin-top:15%;
+ }
+
+ #address ul {
+     font-weight:600;
  }
 
  .address-header {

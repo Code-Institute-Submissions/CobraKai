@@ -83,7 +83,7 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 * Index.html
     * Images were square so i changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
 
-    * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked which was 12px. [here](assets/images/social-media-icons-after.png).
+    * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked [here](assets/images/social-media-icons-after.png).
 
 
 
