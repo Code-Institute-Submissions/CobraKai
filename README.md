@@ -64,6 +64,8 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 * Navigation bar which when hovered over will underline each page and will keep the page the user is on underlined
 * Social media icons which when clicked will take the user to a new page and open up the social media page
 * Consistent header and footers along each page of the webpage
+* Photos and descriptions of instructors and current champion
+
 
 
 
@@ -76,6 +78,7 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 * [Google Fonts](https://fonts.google.com) was used to style the font within my project. Lato font was used for the text.
 * [Font awesome icons](https://fontawesome.com/icons?d=gallery) were used to add icons to the social media links in the footer.
+* [Google maps](https://www.maps.ie/create-google-map/) was used for the iframe for the address map.
 
 
 ## Bugs Discovered
@@ -91,9 +94,7 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 
 
--description of bug
--how you solved it
--snippets of code before and after
+
 
 ## Testing
 
