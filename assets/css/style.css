@@ -7,7 +7,7 @@ body {
     font-family: lato;
     max-width:1024px;
     margin:auto;
-    background-color:silver;
+    background-color:#eaeaea;
     
     
 
@@ -91,8 +91,8 @@ nav {
 
 .instructor img {
     margin-left: 344px;
-    height:215px;
-    width:320px;
+    height:250px;
+    width:250px;
     margin-bottom:15px;
     margin-top:40px;
     border-radius:50%;
@@ -101,8 +101,8 @@ nav {
 
 .champions img {
     margin-left: 344px;
-    height:215px;
-    width:320px;
+    height:250px;
+    width:250px;
     margin-bottom:15px;
     margin-top:40px;
     border-radius:50%;
@@ -197,9 +197,10 @@ text-align:center;
         }
 
         .instructor img {
-            margin-left:282px;
-            height:215px;
-            width:320px;
+            margin-left:auto;
+            margin-right:auto;
+            height:250px;
+            width:250px;
             margin-bottom:15px;
             margin-top:40px;
             border-radius:50%;
@@ -207,9 +208,10 @@ text-align:center;
         }
          
         .champions img {
-            margin-left:282px;
-            height:215px;
-            width:320px;
+            margin-left:auto;
+            margin-right:auto;
+            height:250px;
+            width:250px;
             margin-bottom:15px;
             margin-top:40px;
             border-radius:50%;
@@ -270,3 +272,21 @@ text-align:center;
 
 
 }
+
+
+                                                                       /*Gallery*/
+                                                            
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+  }
+  
+  #photo img {
+    width: 100%;
+  }
+                                                            
+                                                
+    
