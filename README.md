@@ -58,6 +58,8 @@ Below is a link to my wireframes for all three pages of my website.
 
 https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%20wireframes%20pdf.pdf
 
+When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed.
+
 
 ## Features
 * Logo of the company which when clicked will return the user to the index.html page
@@ -65,6 +67,7 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 * Social media icons which when clicked will take the user to a new page and open up the social media page
 * Consistent header and footers along each page of the webpage
 * Photos and descriptions of instructors and current champion
+* Interactive map with address and contact telephone number
 
 
 
@@ -97,6 +100,9 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 
 ## Testing
+* I tested my media queries and responsive design using the dev tools on chrome, as you can see the tablet view [here](assets/images/media-query-tablet-index.png) for the index page.
+
+* I tested my media queries for the mobile view using dev tools which can be seen [here](assets/images/media-query-mobile-index.png)
 
 -CSS validator, HTML validator
 -testing client stories from UX section
