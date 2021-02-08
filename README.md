@@ -7,15 +7,17 @@ As the developer i designed this project following watching the new Netflix TV s
 
 * UX
     * User Goals
-    * User Stories
     * User Requirements and Expectations
+* Wireframes
 * Features
     * Features that have been developed
     * Features that will be implemented in the future
+* Technologies Used
+* Bugs discovered
 * Testing
-* Bugs
 * Deployment
-* Credit
+* Credits
+* Awknowledgements
 
 
 ## UX
@@ -28,12 +30,12 @@ As a new customer:
 4. I want a form which is easy to use where i can sign up for lessons
 5. I want to be able to return to the homepage quickly and easily
 6. I need to have a contact telephone number and address
+7. I want to visit the social media pages for various different platforms
 
 As a returning customer I want:
 1. To see the times and dates of upcoming classes
 2. Updated photographs from recent classes and competitions
-3. If i want to cancel my membership, I want to do this quickly and easily all online
-4. I need to have a contact telephone number
+3. I need to have a contact telephone number
 
 As a parent of customers I need:
 1. To know the instructors are qualified and trustworthy
@@ -49,7 +51,7 @@ As a developer I want:
 4. A collage of photos in a gallery which encourage customers to sign up
 5. A Navigation bar which will be simple for customers to follow and one which will stick to the screen
 
-I hope this project will provide all users with 3 pages including a home page packed with information, a gallery page and a page with a timetable including a signup form.
+I hope this project will provide all users with 4 pages including a home page packed with information, a gallery page, timetable and a signup form.
 
 ## Wireframes
 
@@ -103,6 +105,14 @@ When building my web page I did make some changes which now differ to my wirefra
 * I tested my media queries and responsive design using the dev tools on chrome, as you can see the tablet view [here](assets/images/media-query-tablet-index.png) for the index page.
 
 * I tested my media queries for the mobile view using dev tools which can be seen [here](assets/images/media-query-mobile-index.png)
+
+* I had to make sure the navigation bar links were interactive and when clicked brought me to a different page and this can be shown [here](assets/images/test-navbar.png). The link under the navigation link became underlined and when clicked brought me to a the gallery page.
+
+* When testing the social media icons, I clicked on them and they opened up the corresponding social media platform on a new page which is what I expected to happen so I knew that they worked.
+
+
+
+
 
 -CSS validator, HTML validator
 -testing client stories from UX section
