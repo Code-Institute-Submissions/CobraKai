@@ -123,7 +123,7 @@ nav {
 }
 
 p {
-   font-size:26px;
+   font-size:22px;
    text-align:center;
    font-weight:bolder;
    
@@ -137,13 +137,18 @@ h2 {
     padding-top:10px;
 }
 
-.col {
-    font-size: 20px;
+.col-sm {
+    font-size: 25px;
     font-weight: 600;
     padding-top:50px;
     font-family:lato;
     text-align:center;
 }
+ h3 {
+     font-family:lato;
+     font-weight:600;
+     color:red;
+ }
 
 
 
@@ -196,6 +201,22 @@ text-align:center;
 
 
 
+                                                                       /*Gallery*/
+                                                            
+
+ #photo {
+ clear: both;
+line-height: 0;
+column-count: 3;
+column-gap: 0px;
+} 
+
+#photo img {
+width: 100%;
+}
+                                                                        
+
+
 
                                                 /*media queries TABLET*/ 
 @media screen and (max-width: 1024px) {
@@ -243,6 +264,14 @@ text-align:center;
             padding-left:50px;
             padding-right:50px;
         }
+
+        #logo img {
+            margin-top:0px;
+        }
+
+        
+        
+
 }
 
                                                        /*media queries MOBILE*/ 
@@ -257,10 +286,11 @@ text-align:center;
         display:none;
     }
 
-    .instructor img {
-        margin-left:189px;
-        height:180px;
-        width:218px;
+
+    .instructor-img {
+        margin:auto;
+        height:150px;
+        width:150px;
     }
 
     #gmap_canvas {
@@ -271,8 +301,9 @@ text-align:center;
 
     #logo {
         display:inline-block;
-        width: 29.5%;
+        width:29.5%;
         margin-left:0px;
+        
     
     }
 
@@ -281,27 +312,49 @@ text-align:center;
         letter-spacing: 4px;
         list-style-type: none;
     
-        
+    
     }
+    #logo img {
+        display:inline-block;
+        margin-left:-125px;
+        height: 220px;
+        width: 450px;
+        margin-top:-8px;
+    
+    }
+
+    .second {
+        display:none;
+    }
+
+    .third {
+        display:none;
+    }
+
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count:2;
+        column-gap: 0px;
+      } 
+
+      .col-sm {
+          font-size:20px
+      }
+
+      .instructor-paragraph {
+          font-size:15px;
+          display:table-row;
+          margin-top:25px;
+
+    
+
 
 
 
 }
 
 
-                                                                       /*Gallery*/
-                                                            
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0px;
-  }
-  
-  #photo img {
-    width: 100%;
-  }
-                                                            
+                                                        
                                                 
     
