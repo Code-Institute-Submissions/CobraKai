@@ -127,6 +127,7 @@ When building my web page I did make some changes which now differ to my wirefra
 https://punchermedia.com/what-is-karate/ information on karate
 https://en.wikipedia.org/wiki/John_Kreese- info on instructors
 google images for pictures of instructors
+https://pixlr.com/e/#editor
 
 
 ## Acknowledgement
