@@ -36,6 +36,7 @@ body {
     letter-spacing: 3px;
     list-style-type: none;
     display:inline-block;
+    margin-top: 50px;
     
 }
 
@@ -89,8 +90,8 @@ nav {
     margin-bottom:-54px;
 }
 
-.instructor img {
-    margin-left: 344px;
+.instructor-img {
+    margin: auto;
     height:250px;
     width:250px;
     margin-bottom:15px;
@@ -117,6 +118,10 @@ nav {
     list-style-type: none;
 }
 
+.champions {
+    padding-top:50px;
+}
+
 p {
    font-size:26px;
    text-align:center;
@@ -127,7 +132,17 @@ p {
 h2 {
     text-align:center;
     color:red;
-    font-size:35px;
+    font-size:40px;
+    font-weight:700;
+    padding-top:10px;
+}
+
+.col {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top:50px;
+    font-family:lato;
+    text-align:center;
 }
 
 
@@ -183,7 +198,7 @@ text-align:center;
 
 
                                                 /*media queries TABLET*/ 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
  
     #menu li {
         display:inline-block;
