@@ -84,6 +84,7 @@ When building my web page I did make some changes which now differ to my wirefra
 * [Google Fonts](https://fonts.google.com) was used to style the font within my project. Lato font was used for the text.
 * [Font awesome icons](https://fontawesome.com/icons?d=gallery) were used to add icons to the social media links in the footer.
 * [Google maps](https://www.maps.ie/create-google-map/) was used for the iframe for the address map.
+* [Bootstrap](https://getbootstrap.com/) was used to make my website more responsive using layouts and tables to assist with my styling.
 
 
 ## Bugs Discovered
@@ -95,7 +96,11 @@ When building my web page I did make some changes which now differ to my wirefra
 
     * I used bootstrap to align my images in a much more user friendly way. I then checked this using dev tools to ensure the design was consistent at my breakpoints. [printscreen](assets/images/bootstrap-images.png)
 
+* Signup.html
 
+    * My submit button would not align into the center. I used dev tools to see if i could align it but I then had to align my parent DIV centrally and the button then aligned [here](assets/images/submitbutton.png)
+
+    * Table would not work correctly on mobile view [here](assets/images/tablemobileview.png)
 
 
 
