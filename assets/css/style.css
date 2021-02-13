@@ -105,7 +105,6 @@ nav {
     height:250px;
     width:250px;
     margin-bottom:15px;
-    margin-top:40px;
     border-radius:50%;
     display:block;
 }
@@ -235,6 +234,7 @@ width: 100%;
 .form {
     font-size:30px;
     margin-bottom:30px;
+    text-align:center;
     
     
 
@@ -258,6 +258,42 @@ color: seagreen;
 .text-center {
     text-align: center;
 }
+
+
+
+                                                          /*Classes*/
+td {
+    padding:28px;
+    
+}
+
+th {
+    text-decoration: underline;
+    padding:10px;
+    
+}
+
+.table {
+    font-size:28px;
+    text-align:center;
+    margin:auto;
+    color:#697979;
+    
+
+}
+
+h1 {
+    text-align:center;
+    font-weight:600;
+    font-size:36px;
+    text-decoration: underline;
+    color:#697979;
+    
+}
+
+
+
+
                                    
 
 
@@ -390,13 +426,8 @@ color: seagreen;
           font-size:18px;
           display:table-row;
           margin-top:25px;
-
-    
-
-
-
-
 }
+
 
 
                                                         
