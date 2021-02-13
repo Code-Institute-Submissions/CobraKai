@@ -57,13 +57,14 @@ nav {
     }
 
     a {
-        color:rgba(0, 0, 0, 0.938);
+        color:black;
         font-weight:bold;
         text-decoration:none;
     }
 
    #menu a:hover {
        border-bottom: 1px solid;
+       color:black;
    }
 
    .active {
@@ -215,18 +216,25 @@ width: 100%;
 }
 
                                                                              /*Sign Up*/
-#exampleFormControlTextarea1 {
+ #exampleFormControlTextarea1 {
     display: table;
-    width: 100%;
+    width: 50%;
     height: 98px;
-    margin-top: 20px;
+    margin:auto;
     border-width: 1px;
-}
+} */
 
 
 #exampleFormControlInput1 {
     height: 40px;
-    width: 57%;
+    width: 50%;
+    margin:auto;
+
+} */
+
+#exampleFormControlInput1 {
+    width:50%;
+    margin:auto;
 }
 
 
@@ -277,7 +285,7 @@ th {
     font-size:28px;
     text-align:center;
     margin:auto;
-    color:#697979;
+    color:#515353;
     
 
 }
@@ -287,8 +295,8 @@ h1 {
     font-weight:600;
     font-size:36px;
     text-decoration: underline;
-    color:#697979;
-    
+    color:#515353;
+  
 }
 
 
@@ -429,7 +437,6 @@ h1 {
 }
 
 
-
+}
                                                         
-                                                
-    
+                    
