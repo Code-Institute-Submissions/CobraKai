@@ -93,6 +93,8 @@ When building my web page I did make some changes which now differ to my wirefra
 
     * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked [here](assets/images/social-media-icons-after.png).
 
+    * I used bootstrap to align my images in a much more user friendly way. I then checked this using dev tools to ensure the design was consistent at my breakpoints. [printscreen](assets/images/bootstrap-images.png)
+
 
 
 
