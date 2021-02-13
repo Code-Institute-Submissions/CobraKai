@@ -214,7 +214,51 @@ column-gap: 0px;
 #photo img {
 width: 100%;
 }
-                                                                        
+
+                                                                             /*Sign Up*/
+#exampleFormControlTextarea1 {
+    display: table;
+    width: 100%;
+    height: 98px;
+    margin-top: 20px;
+    border-width: 1px;
+}
+
+
+#exampleFormControlInput1 {
+    height: 40px;
+    width: 57%;
+}
+
+
+
+.form {
+    font-size:30px;
+    margin-bottom:30px;
+    
+    
+
+}
+
+.btn {
+font-size: 30px;
+margin-top: 20px;
+color: seagreen;
+}
+
+.mb-3 {
+    margin-top: 40px;
+
+}
+
+.signup {
+    text-align:center;
+}
+
+.text-center {
+    text-align: center;
+}
+                                   
 
 
 
