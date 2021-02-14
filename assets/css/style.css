@@ -348,6 +348,7 @@ h1 {
         margin:auto;
         height:150px;
         width:150px;
+        margin-top:20px;
     }
 
     #gmap_canvas {
@@ -388,7 +389,7 @@ h1 {
 
     .navlogo {
         height: 150px;
-    margin-left: -1px;
+    margin-left: -80px;
     }
 
     .active {

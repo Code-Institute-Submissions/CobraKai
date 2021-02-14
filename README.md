@@ -108,6 +108,7 @@ When building my web page I did make some changes which now differ to my wirefra
    I changed the layout of the timetable so it was more visually appealing and especially when viewed on mobile devices.
    The [table](assets/images/tablemobileview.png) before changes were made. [Updated](assets/images/newtableviewmobile.png) table is easier to view on mobile devices. 
 
+* My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
 
 
 
@@ -141,6 +142,7 @@ https://punchermedia.com/what-is-karate/ information on karate
 https://en.wikipedia.org/wiki/John_Kreese- info on instructors
 google images for pictures of instructors
 https://pixlr.com/e/#editor
+https://getbootstrap.com/ 
 
 
 ## Acknowledgement
