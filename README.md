@@ -5,7 +5,7 @@ As the developer i designed this project following watching the new Netflix TV s
 
 ## Contents
 
-* UX
+* UX (User experience)
     * User Goals
     * User Requirements and Expectations
 * Wireframes
@@ -20,7 +20,7 @@ As the developer i designed this project following watching the new Netflix TV s
 * Awknowledgements
 
 
-## UX
+# UX
 The target audience for this project is aimed at teenagers. It will also include parents of these children who wish to sign up for karate.
 
 As a new customer:
@@ -35,7 +35,7 @@ As a new customer:
 As a returning customer I want:
 1. To see the times and dates of upcoming classes
 2. Updated photographs from recent classes and competitions
-3. I need to have a contact telephone number
+3. To have a contact telephone number
 
 As a parent of customers I need:
 1. To know the instructors are qualified and trustworthy
@@ -49,11 +49,11 @@ As a developer I want:
 2. Customers to feel comfortable enough to signup to karate after visiting the website
 3. Consistency throughout all pages
 4. A collage of photos in a gallery which encourage customers to sign up
-5. A Navigation bar which will be simple for customers to follow and one which will stick to the screen
+5. A Navigation bar which will be simple for customers to follow and become responsive depending on the device its being viewed on.
 
 I hope this project will provide all users with 4 pages including a home page packed with information, a gallery page, timetable and a signup form.
 
-## Wireframes
+# Wireframes
 
 I used [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9bmABhBbEiwASb35VwUP86nusbRkDn2_oK45Wc06sE-LKld8DUd5znTuQObwilsvALXI5RoCda0QAvD_BwE) for my project wireframes.
 Below is a link to my wireframes for all three pages of my website. 
@@ -63,7 +63,7 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed.
 
 
-## Features
+# Features
 * Logo of the company which when clicked will return the user to the index.html page
 * Navigation bar which when hovered over will underline each page and will keep the page the user is on underlined
 * Social media icons which when clicked will take the user to a new page and open up the social media page
@@ -74,14 +74,10 @@ When building my web page I did make some changes which now differ to my wirefra
 * Form with clear instructions on how to sign up
 * Timetable which has times of classes
 
+## Features left to implement
+* I would like to add videos in the future
 
-
-
-
-
--features left to implement
-
-## Technologies Used
+# Technologies Used
 * I used [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) languages for writing the code in this project.
 
 * [Google Fonts](https://fonts.google.com) was used to style the font within my project. Lato font was used for the text.
@@ -90,7 +86,7 @@ When building my web page I did make some changes which now differ to my wirefra
 * [Bootstrap](https://getbootstrap.com/) was used to make my website more responsive using layouts and tables to assist with my styling.
 
 
-## Bugs Discovered
+# Bugs Discovered
 
 * Index.html
     * Images were square so i changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
@@ -110,13 +106,16 @@ When building my web page I did make some changes which now differ to my wirefra
 
 * My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
 
+* General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS.
 
 
 
 
 
-## Testing
-* I tested my media queries and responsive design using the dev tools on chrome, as you can see the tablet view [here](assets/images/media-query-tablet-index.png) for the index page.
+# Testing
+* I tested my media queries and responsive design using the dev tools on chrome, as you can see the tablet view [here](assets/images/1024.png) for the index page, gallery page [here](assets/images/1024gallery.png), signup page [here](assets/images/1024signup.png) and finally the classes page [here](assets/images/1024classes.png).
+
+* The same testing was done using the mobile view for the [index](assets/images/670index.png), [gallery](assets/images/670gallery), [signup](assets/images/670gallery.png) and the [classes](assets/images/670classes.png).
 
 * I tested my media queries for the mobile view using dev tools which can be seen [here](assets/images/media-query-mobile-index.png)
 
@@ -132,11 +131,11 @@ When building my web page I did make some changes which now differ to my wirefra
 -testing client stories from UX section
 -expected, testing, result, fix
 
-## Deployment
+# Deployment
 -to github pages
 -how to run project within a coding environment
 
-## Credits
+# Credits
 
 https://punchermedia.com/what-is-karate/ information on karate
 https://en.wikipedia.org/wiki/John_Kreese- info on instructors
@@ -145,6 +144,6 @@ https://pixlr.com/e/#editor
 https://getbootstrap.com/ 
 
 
-## Acknowledgement
+# Acknowledgement
 
 
