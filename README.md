@@ -70,6 +70,9 @@ When building my web page I did make some changes which now differ to my wirefra
 * Consistent header and footers along each page of the webpage
 * Photos and descriptions of instructors and current champion
 * Interactive map with address and contact telephone number
+* Gallery images
+* Form with clear instructions on how to sign up
+* Timetable which has times of classes
 
 
 
@@ -100,7 +103,10 @@ When building my web page I did make some changes which now differ to my wirefra
 
     * My submit button would not align into the center. I used dev tools to see if i could align it but I then had to align my parent DIV centrally and the button then aligned [here](assets/images/submitbutton.png)
 
-    * Table would not work correctly on mobile view [here](assets/images/tablemobileview.png)
+
+   * Table layout from bootstrap did not work correctly when then scaled down to my mobile breakpoint.
+   I changed the layout of the timetable so it was more visually appealing and especially when viewed on mobile devices.
+   The [table](assets/images/tablemobileview.png) before changes were made. [Updated](assets/images/newtableviewmobile.png) table is easier to view on mobile devices. 
 
 
 
@@ -130,7 +136,7 @@ When building my web page I did make some changes which now differ to my wirefra
 -how to run project within a coding environment
 
 ## Credits
--code from online, media etc
+
 https://punchermedia.com/what-is-karate/ information on karate
 https://en.wikipedia.org/wiki/John_Kreese- info on instructors
 google images for pictures of instructors
