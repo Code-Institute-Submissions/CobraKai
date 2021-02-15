@@ -255,7 +255,6 @@ td {
 }
 
 th {
-    text-decoration: underline;
     padding:10px;
     
 }
@@ -264,7 +263,7 @@ th {
     font-size:28px;
     text-align:center;
     margin:auto;
-    color:#515353;
+    color:#636464;
     
 
 }
@@ -276,6 +275,10 @@ h1 {
     text-decoration: underline;
     color:#515353;
   
+}
+
+.table-responsive {
+    background-color: rgb(0 0 0 / 7%);
 }
 
 
