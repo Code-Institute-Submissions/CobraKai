@@ -227,10 +227,23 @@ color: seagreen;
 
 .signup {
     text-align:center;
+    margin-top:40px;
 }
 
 .text-center {
     text-align: center;
+}
+
+.signupimg {
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.form-control {
+    width: 80%;
+    display: inline-table;
 }
 
 
@@ -394,6 +407,13 @@ h1 {
 
     .active {
         border-bottom: none;
+    }
+
+    .signupimg {
+        height: 150px;
+        width: 150px;
+        margin-left: 0px;
+        border-radius: 50%;
     }
 
 }
