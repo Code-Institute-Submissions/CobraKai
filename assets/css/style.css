@@ -159,7 +159,7 @@ text-align:center;
 }
 
 .social-networks i {
-    font-size:50px;;
+    font-size:50px;
     margin:1%;
     padding:12%;
     color: #000000;
@@ -419,6 +419,10 @@ h1 {
         width: 150px;
         margin-left: 0px;
         border-radius: 50%;
+    }
+
+    .social-networks i {
+        font-size:20px;
     }
 
 }

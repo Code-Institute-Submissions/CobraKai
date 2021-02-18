@@ -28,7 +28,7 @@ The target audience for this project is aimed at teenagers. It will also include
 As a new customer:
 1. I want to read information on the type of karate learnt as this company
 2. I want to see photographs to give me an idea of what to expect within the premises
-3. I want to be able to see a timetable with classes and timetables
+3. I want to be able to see a timetable with classes and times.
 4. I want a form which is easy to use where i can sign up for lessons
 5. I want to be able to return to the homepage quickly and easily
 6. I need to have a contact telephone number and address
@@ -62,7 +62,7 @@ Below is a link to my wireframes for all three pages of my website.
 
 https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%20wireframes%20pdf.pdf
 
-When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed. 
+When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed. I was not going to use bootstrap initially but then became confident in using it so the layout of a few things changed in my final project from my wireframes.
 
 
 # Features
@@ -110,7 +110,7 @@ When building my web page I did make some changes which now differ to my wirefra
 
    * My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
 
-   * General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS.
+   * General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS. 
 
 
 
@@ -127,6 +127,7 @@ When building my web page I did make some changes which now differ to my wirefra
 
 * When testing the social media icons, I clicked on them and they opened up the corresponding social media platform on a new page which is what I expected to happen so I knew that they worked.
 
+* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved.
 
 
 
