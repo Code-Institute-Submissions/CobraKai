@@ -30,7 +30,7 @@ body {
    }
 
    .nav-item {
-       font-size:30px;
+       font-size:38px;
        font-weight:600;
     
    }
@@ -89,7 +89,7 @@ body {
 
 
 p {
-   font-size:22px;
+   font-size:20px;
    text-align:center;
    font-weight:bolder;
    
@@ -104,7 +104,7 @@ h2 {
 }
 
 .col-sm {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     padding-top:50px;
     font-family:lato;
@@ -159,7 +159,7 @@ text-align:center;
 }
 
 .social-networks i {
-    font-size:220%;
+    font-size:50px;;
     margin:1%;
     padding:12%;
     color: #000000;
@@ -188,7 +188,8 @@ width: 100%;
     height: 98px;
     margin:auto;
     border-width: 1px;
-} */
+   
+} 
 
 
 #exampleFormControlInput1 {
@@ -196,7 +197,8 @@ width: 100%;
     width: 50%;
     margin:auto;
 
-} */
+
+} 
 
 #exampleFormControlInput1 {
     width:50%;
@@ -273,7 +275,7 @@ h1 {
     font-weight:600;
     font-size:36px;
     text-decoration: underline;
-    color:#515353;
+    color:rgba(0,0,0,.55);
   
 }
 
