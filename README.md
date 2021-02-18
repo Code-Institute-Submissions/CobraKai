@@ -1,9 +1,11 @@
 # Cobra Kai
 
+![image of cobra kai](https://tv-fanatic-res.cloudinary.com/iu/s--jnyrsA_x--/f_auto,q_auto/v1529616090/cobra-kai-banner)
+
  This project was designed to allow younger age groups to learn more about karate and hopefully sign up to lessons. This webpage will allow users to read about karate, Cobra Kai in particular, look at the gallery, see timetables for lessons and to sign up for classes if they wish.
 As the developer i designed this project following watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
 
-## Contents
+# Contents
 
 * UX (User experience)
     * User Goals
@@ -60,7 +62,7 @@ Below is a link to my wireframes for all three pages of my website.
 
 https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%20wireframes%20pdf.pdf
 
-When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed.
+When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed. 
 
 
 # Features
@@ -77,6 +79,8 @@ When building my web page I did make some changes which now differ to my wirefra
 ## Features left to implement
 * I would like to add videos in the future
 
+
+
 # Technologies Used
 * I used [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) languages for writing the code in this project.
 
@@ -88,14 +92,14 @@ When building my web page I did make some changes which now differ to my wirefra
 
 # Bugs Discovered
 
-* Index.html
+* ## Index.html
     * Images were square so i changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
 
     * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked [here](assets/images/social-media-icons-after.png).
 
     * I used bootstrap to align my images in a much more user friendly way. I then checked this using dev tools to ensure the design was consistent at my breakpoints. [printscreen](assets/images/bootstrap-images.png)
 
-* Signup.html
+* ## Signup.html
 
     * My submit button would not align into the center. I used dev tools to see if i could align it but I then had to align my parent DIV centrally and the button then aligned [here](assets/images/submitbutton.png)
 
@@ -104,9 +108,9 @@ When building my web page I did make some changes which now differ to my wirefra
    I changed the layout of the timetable so it was more visually appealing and especially when viewed on mobile devices.
    The [table](assets/images/tablemobileview.png) before changes were made. [Updated](assets/images/newtableviewmobile.png) table is easier to view on mobile devices. 
 
-* My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
+   * My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
 
-* General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS.
+   * General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS.
 
 
 
@@ -127,6 +131,8 @@ When building my web page I did make some changes which now differ to my wirefra
 
 
 
+
+
 -CSS validator, HTML validator
 -testing client stories from UX section
 -expected, testing, result, fix
@@ -137,13 +143,23 @@ When building my web page I did make some changes which now differ to my wirefra
 
 # Credits
 
-https://punchermedia.com/what-is-karate/ information on karate
-https://en.wikipedia.org/wiki/John_Kreese- info on instructors
-google images for pictures of instructors
-https://pixlr.com/e/#editor
-https://getbootstrap.com/ 
+Credit for text used on this website 
+* https://punchermedia.com/what-is-karate/
+* https://en.wikipedia.org/wiki/John_Kreese-
+
+Credit for images used 
+* www.google.com
+* https://pixlr.com/e/#editor
 
 
-# Acknowledgement
+
+
+## Acknowledgement
+
+* I received inspiration for this project from the TV series, Cobra Kai on [Netflix](www.netflix.com).
+
+* Special thanks to [Christopher Temple](https://github.com/christemple) for his support and knowledge!
+
+
 
 
