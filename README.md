@@ -3,7 +3,7 @@
 ![image of cobra kai](https://tv-fanatic-res.cloudinary.com/iu/s--jnyrsA_x--/f_auto,q_auto/v1529616090/cobra-kai-banner)
 
  This project was designed to allow younger age groups to learn more about karate and hopefully sign up to lessons. This webpage will allow users to read about karate, Cobra Kai in particular, look at the gallery, see timetables for lessons and to sign up for classes if they wish.
-As the developer i designed this project following watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
+As the developer I designed this project following watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
 
 # Contents
 
@@ -93,33 +93,35 @@ When building my web page I did make some changes which now differ to my wirefra
 # Bugs Discovered
 
 * ## Index.html
-    * Images were square so i changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
+    * Images were square so I changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
 
     * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked [here](assets/images/social-media-icons-after.png).
 
-    * I used bootstrap to align my images in a much more user friendly way. I then checked this using dev tools to ensure the design was consistent at my breakpoints. [printscreen](assets/images/bootstrap-images.png)
+    * I used bootstrap to align my images in a much more user friendly way. I then checked this using dev tools to ensure the design was consistent at my breakpoints which worked out much better [here](assets/images/bootstrap-images.png).
 
 * ## Signup.html
 
-    * My submit button would not align into the center. I used dev tools to see if i could align it but I then had to align my parent DIV centrally and the button then aligned [here](assets/images/submitbutton.png)
+    * My submit button would not align into the center. I used dev tools to see if I could align it but I then had to align my parent DIV centrally and the button then [aligned](assets/images/submitbutton.png).
 
 
    * Table layout from bootstrap did not work correctly when then scaled down to my mobile breakpoint.
    I changed the layout of the timetable so it was more visually appealing and especially when viewed on mobile devices.
-   The [table](assets/images/tablemobileview.png) before changes were made. [Updated](assets/images/newtableviewmobile.png) table is easier to view on mobile devices. 
+
+   * The [table](assets/images/tablemobileview.png) before changes were made. [Updated](assets/images/newtableviewmobile.png) table is easier to view on mobile devices. 
 
    * My navbar did not work across a few breakpoints so I added a Bootstrap navbar to ensure at each breakpoint the navbar is responsive. The new navbar can be seen [here](assets/images/navbar.png) where it becomes a dropdown navbar which is much more user friendly for smaller devices.
 
    * General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS. 
 
+   * When viewing my website on my own mobile, layout on the index.html page did not look right, there was padding around the second P element. I took this out to make the page more consistent on small devices [here](assets/images/mobileviewmargin.png).
 
-
+   * Instructor paragraphs viewed on my mobile looked too big, i changed the font size and it worked much better from 20px to 13px [here](assets/images/fontsizemobile.png).
 
 
 # Testing
 * I tested my media queries and responsive design using the dev tools on chrome, as you can see the tablet view [here](assets/images/1024.png) for the index page, gallery page [here](assets/images/1024gallery.png), signup page [here](assets/images/1024signup.png) and finally the classes page [here](assets/images/1024classes.png).
 
-* The same testing was done using the mobile view for the [index](assets/images/670index.png), [gallery](assets/images/670gallery), [signup](assets/images/670gallery.png) and the [classes](assets/images/670classes.png).
+* The same testing was done using the mobile view for the [index](assets/images/670index.png), [gallery](assets/images/670gallery.png), [signup](assets/images/670signup.png) and the [classes](assets/images/670classes.png).
 
 * I tested my media queries for the mobile view using dev tools which can be seen [here](assets/images/media-query-mobile-index.png)
 
@@ -127,16 +129,51 @@ When building my web page I did make some changes which now differ to my wirefra
 
 * When testing the social media icons, I clicked on them and they opened up the corresponding social media platform on a new page which is what I expected to happen so I knew that they worked.
 
-* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved.
+* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator.png) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved. The HTML passed the [validator](assets/images/htmlvalidatorpass.png).
+
+
+* CSS VALIDATOR ***********
+
+# Testing UX 
+
+As a new customer:
+1. I want to read information on the type of karate learnt as this company 
+   * Index page has information on what karate is, what is expected and the benefits. 
+2. I want to see photographs to give me an idea of what to expect within the premises
+   * Gallery page contains a collage of up to date images.
+3. I want to be able to see a timetable with classes and times.
+   * Classes page has a timetable with days/times/type of class.
+4. I want a form which is easy to use where i can sign up for lessons
+   * Sign up page contains a form to enquire about signing up.
+5. I want to be able to return to the homepage quickly and easily
+   * Nav bar across all pages contains a logo which when clicked links back to the homepage.
+6. I need to have a contact telephone number and address
+   * Home page contains contact information including map with address.
+7. I want to visit the social media pages for various different platforms
+   * Footer of each page contains a an icon which when clicked links to the corresponding social media page.
+
+As a returning customer I want:
+1. To see the times and dates of upcoming classes
+   * Classes page has a timetable with days/times/type of class.
+2. Updated photographs from recent classes and competitions
+   * Gallery page contains a collage of up to date images.
+3. To have a contact telephone number
+   * Home page contains contact information including map with address.
+
+
+As a parent of customers I need:
+1. To know the instructors are qualified and trustworthy
+    * Home page has information on instructors with images.
+2. The premises are safe to carry out karate classes
+    * Gallery contains images showing inside the dojo with equipment.
+3. To see the timetable of my childrens classes
+    * Classes page has a timetable with days/times/type of class.
+4. To have an address and contact number
+    * Home page contains contact information including map with address.
 
 
 
 
-
-
--CSS validator, HTML validator
--testing client stories from UX section
--expected, testing, result, fix
 
 # Deployment
 -to github pages
