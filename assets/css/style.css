@@ -1,252 +1,212 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
-
-
-
-
 body {
     font-family: lato;
-    max-width:1024px;
-    margin:auto;
-    background-color:#eaeaea;
-    
-    
-
+    max-width: 1024px;
+    margin: auto;
+    background-color: #eaeaea;
 }
 
 
-                                                           /*navbar and logo*/
+/*navbar and logo*/
+
+.active {
+    border-bottom: 1px solid;
+}
+
+.navbar {
+    background-color: #eaeaea;
+}
+
+.nav-item {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.navbar nav {
+    letter-spacing: 3px;
+    color: black;
+}
 
 
-
-   .active {
-       border-bottom: 1px solid;
-   }
-
-
-
-   .navbar  {
-       background-color: #eaeaea;
-
-   }
-
-   .nav-item {
-       font-size:38px;
-       font-weight:600;
-    
-   }
-
-   .navbar nav {
-       letter-spacing: 3px;
-       color:black;
-   }
-
-                                                                /*about our instructors*/
-   
+/*about our instructors*/
 
 .instructors {
-    list-style-type:none;
+    list-style-type: none;
 }
-
 
 .instructor .instructor-description {
     vertical-align: top;
     width: 100%;
     text-align: center;
     display: inline-block;
-
 }
 
 .instructor-description {
-    margin-bottom:-54px;
+    margin-bottom: -54px;
 }
 
 .instructor-img {
     margin: auto;
-    height:250px;
-    width:250px;
-    margin-bottom:15px;
-    margin-top:40px;
-    border-radius:50%;
-    display:block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border-radius: 50%;
+    display: block;
 }
 
 .champions img {
     margin-left: 344px;
-    height:250px;
-    width:250px;
-    margin-bottom:15px;
-    border-radius:50%;
-    display:block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: block;
 }
 
 .champions li {
     list-style-type: none;
 }
+
 .instructor {
     margin-bottom: 50px;
     list-style-type: none;
 }
 
-
 p {
-   font-size:20px;
-   text-align:center;
-   font-weight:bolder;
-   
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 h2 {
-    text-align:center;
-    color:red;
-    font-size:40px;
-    font-weight:700;
-    padding-top:10px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
 }
 
 .col-sm {
     font-size: 25px;
     font-weight: 600;
-    padding-top:50px;
-    font-family:lato;
-    text-align:center;
+    padding-top: 50px;
+    font-family: lato;
+    text-align: center;
 }
- h3 {
-     font-family:lato;
-     font-weight:600;
-     color:red;
- }
 
-
-
-
-
-                                                                     /*maps*/
-
- #address {
-     list-style-type:none;
-     text-align:center;
-     font-size:25px;
-     margin-top:15%;
- }
-
- #address ul {
-     font-weight:600;
- }
-
- .address-header {
-     color:red;
- }
-
- #gmap_canvas {
-     width:100%;
-     height: 360px; 
- }
-
- #address li {
-    font-weight:600;
-    font-size:30px;
-
+h3 {
+    font-family: lato;
+    font-weight: 600;
+    color: red;
 }
 
 
-                                                                                   /* footer */
+/*maps*/
+
+#address {
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+#address ul {
+    font-weight: 600;
+}
+
+.address-header {
+    color: red;
+    margin-top: 60px;
+}
+
+#gmap_canvas {
+    width: 100%;
+    height: 360px;
+}
+
+#address li {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+/* footer */
 
 footer {
-    height:150px;
+    height: 150px;
 }
 
 .social-networks {
-text-align:center;
-
+    text-align: center;
 }
 
 .social-networks li {
-    display:inline;
+    display: inline;
 }
 
 .social-networks i {
-    font-size:50px;
-    margin:1%;
-    padding:12%;
+    font-size: 50px;
+    margin: 1%;
+    padding: 12%;
     color: #000000;
 }
 
 
+/*Gallery*/
 
-                                                                       /*Gallery*/
-                                                            
-
- #photo {
- clear: both;
-line-height: 0;
-column-count: 3;
-column-gap: 0px;
-} 
-
-#photo img {
-width: 100%;
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
 }
 
-                                                                             /*Sign Up*/
- #exampleFormControlTextarea1 {
-    display: table;
-    width: 50%;
-    height: 98px;
-    margin:auto;
-    border-width: 1px;
-   
-} 
+#photo img {
+    width: 100%;
+}
 
+
+/*Sign Up*/
+
+#exampleFormControlTextarea1 {
+    display: inline-table;
+    width: 85%;
+    height: 98px;
+    margin: auto;
+    border-width: 1px;
+}
 
 #exampleFormControlInput1 {
     height: 40px;
     width: 50%;
-    margin:auto;
-
-
-} 
-
-#exampleFormControlInput1 {
-    width:50%;
-    margin:auto;
+    margin: auto;
 }
 
-
+#exampleFormControlInput1 {
+    width: 50%;
+    margin: auto;
+}
 
 .form {
-    font-size:30px;
-    margin-bottom:30px;
-    text-align:center;
-    
-    
-
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .btn {
-font-size: 30px;
-margin-top: 20px;
-color: seagreen;
+    margin-top: 20px;
+}
+
+.btn.contact-us {
+    font-size: 30px;
 }
 
 .mb-3 {
     margin-top: 40px;
-
-}
-
-.signup {
-    text-align:center;
-    margin-top:40px;
 }
 
 .text-center {
     text-align: center;
-}
-
-.signupimg {
-    height: 200px;
-    width: 200px;
-    margin-left: 0px;
-    border-radius: 50%;
 }
 
 .form-control {
@@ -254,35 +214,38 @@ color: seagreen;
     display: inline-table;
 }
 
+.modal-dialog {
+    font-size: 20px;
+}
+
+.modal-title {
+    font-weight: bold;
+}
 
 
-                                                          /*Classes*/
+/*Classes*/
+
 td {
-    padding:28px;
-    
+    padding: 28px;
 }
 
 th {
-    padding:10px;
-    
+    padding: 10px;
 }
 
 .table {
-    font-size:28px;
-    text-align:center;
-    margin:auto;
-    color:#636464;
-    
-
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    color: #636464;
 }
 
 h1 {
-    text-align:center;
-    font-weight:600;
-    font-size:36px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
     text-decoration: underline;
-    color:rgba(0,0,0,.55);
-  
+    color: rgba(0, 0, 0, .55);
 }
 
 .table-responsive {
@@ -290,155 +253,133 @@ h1 {
 }
 
 
+/*media queries TABLET*/
 
-
-                                   
-
-
-
-                                                /*media queries TABLET*/ 
-@media screen and (max-width: 1024px) {
- 
+@media screen and (max-width: 992px) {
     #menu li {
-        display:inline-block;
-        margin-right:15px;
-        margin-top:15px;
-        }
-
-
-        body {
-            margin:14px;
-        }
-
-        .instructor img {
-            margin-left:auto;
-            margin-right:auto;
-            height:250px;
-            width:250px;
-            margin-bottom:15px;
-            margin-top:40px;
-            border-radius:50%;
-            display:block;
-        }
-         
-        .champions img {
-            margin-left:auto;
-            margin-right:auto;
-            height:250px;
-            width:250px;
-            margin-bottom:15px;
-            margin-top:40px;
-            border-radius:50%;
-            display:block;
-        }
-
-        #gmap_canvas {
-            height:255px;
-            width:100%;
-        
-        }  
-
-        
-
-
-        .navlogo {
-            height: 215px;
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    body {
+        margin: 14px;
+    }
+    .instructor-img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 15px;
+        margin-top: 40px;
+        border-radius: 50%;
+        display: block;
+    }
+    .champion img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 15px;
+        margin-top: 40px;
+        border-radius: 50%;
+        display: block;
+    }
+    #gmap_canvas {
+        height: 255px;
+        width: 100%;
+    }
+    .navlogo {
+        height: 215px;
         margin-left: -80px;
-        }
-    
-
-        
-        
-
+    }
+    .social-networks i {
+        font-size: 48px;
+        margin: 1%;
+        padding: 12%;
+        color: #000000;
+    }
+    .nav-link {
+        font-size: 27px;
+        font-weight: 600;
+        text-align: right;
+    }
+    .nav-link.active {
+        border-bottom: none;
+    }
 }
 
-                                                       /*media queries MOBILE*/ 
-                        
+
+/*media queries MOBILE*/
+
 @media screen and (max-width: 670px) {
-
     p {
-        font-size:17px;
-        padding-left:0px;
-        padding-right:0px;
+        font-size: 17px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-
-    .champions img {
-        display:none;
+    .champion img {
+        display: none;
     }
-
-
     .instructor-img {
-        margin:auto;
-        height:120px;
-        width:120px;
-        margin-top:20px;
+        margin: auto;
+        height: 120px;
+        width: 120px;
+        margin-top: 20px;
     }
-
     #gmap_canvas {
-        height:170px;
-        width:100%;
-    
-    }  
-
-
-    h2, h3 {
-        font-size:25px;
+        height: 170px;
+        width: 100%;
     }
-
+    h2,
+    h3 {
+        font-size: 25px;
+    }
     .second {
-        display:none;
+        display: none;
     }
-
     .third {
-        display:none;
+        display: none;
     }
-
     #photo {
         clear: both;
         line-height: 0;
-        column-count:2;
+        column-count: 2;
         column-gap: 0px;
-      } 
-
-      .col-sm {
-          font-size:17px
-      }
-
-      .instructor-paragraph {
-          font-size:13px;
-          display:block;
-          margin-top:25px;
-}
-
-    .navlogo {
-        height: 150px;
-    margin-left: -80px;
     }
-
-    .active {
+    .col-sm {
+        font-size: 17px
+    }
+    .instructor-paragraph {
+        font-size: 13px;
+        display: block;
+        margin-top: 25px;
+    }
+    .navlogo {
+        height: 115px;
+        margin-left: -80px;
+    }
+    .nav-link.active {
         border-bottom: none;
     }
-
     .signupimg {
         height: 150px;
         width: 150px;
         margin-left: 0px;
         border-radius: 50%;
     }
-
     .social-networks i {
-        font-size:20px;
-        margin:1%;
-        padding:12%;
+        font-size: 20px;
+        margin: 1%;
+        padding: 12%;
         color: #000000;
     }
-
     #address li {
-        font-weight:600;
-        font-size:20px;
-
+        font-weight: 600;
+        font-size: 20px;
     }
-
+    .nav-link {
+        font-size: 27px;
+        font-weight: 600;
+        text-align: right;
+    }
 }
-                                                        
-                    
