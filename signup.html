@@ -4,69 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cobra Kai</title>
+    <title>Cobra Kai - Signup</title>
+
+    <!-- Bootstrap V5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!--Font awesome used for Lato font  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
+
+
 <body>
     <header id="home">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/logo.png" class="navlogo"  alt="Cobra Kai logo" height="225px">
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="signup.html">Signup</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="timetable.html">Classes</a>
-                  </li>
-                
-                </ul>
-              </div>
+                    <img src="assets/images/logo.png" class="navlogo" alt="Cobra Kai logo" height="225px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="signup.html">Signup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="timetable.html">Classes</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
 
     </header>
-    <h1 class="signup">Want to learn karate? Drop us a message below!</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <img class="signupimg" src="https://yt3.ggpht.com/ytc/AAUvwnj1POYU0pKuqg3z-gmZVXrNqF99l8aJu7suJo-CNA=s900-c-k-c0x00ffffff-no-rj" alt="Cobra Kai logo">
-        </div>
-        
-      </div>
-    </div>
-  
+    <h2 class="signup">Want to learn karate? Drop us a message below!</h2>
+
     <section class="form">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label form-control-lg ">Name:</label>
             <input type="text" class="form-control" id="exampleFormControlInput1">
-          </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label form-control-lg ">Email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label form-control-lg">Message:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here"></textarea>
-    <div class="text-center">
-        <button type="button" class="btn btn-success">Submit</button>
         </div>
-    </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label form-control-lg ">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here"></textarea>
+
+
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success contact-us" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Sign Up
+</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Submission received</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Your enquiry has been submitted. A member of staff will be in contact with you soon.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </section>
 
 
@@ -74,7 +97,7 @@
 
 
 
-      
+
 
 
 
