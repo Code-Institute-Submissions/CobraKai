@@ -136,6 +136,8 @@ When building my web page I did make some changes which now differ to my wirefra
 
 # Testing UX 
 
+I have checked off each of my user stories to ensure I have made my website suitable for all users needs and wants.
+
 As a new customer:
 1. I want to read information on the type of karate learnt as this company 
    * Index page has information on what karate is, what is expected and the benefits. 
@@ -170,6 +172,8 @@ As a parent of customers I need:
     * Classes page has a timetable with days/times/type of class.
 4. To have an address and contact number
     * Home page contains contact information including map with address.
+
+    I am happy that I have met all the wants and needs of different users who will avail of my webpage. I have also met my own goals as a developer.  
 
 
 
