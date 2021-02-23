@@ -314,8 +314,8 @@ h1 {
     }
     .instructor-img {
         margin: auto;
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
         margin-top: 20px;
     }
     #gmap_canvas {
@@ -361,7 +361,7 @@ h1 {
     .social-networks i {
         font-size: 20px;
         margin: 1%;
-        padding: 12%;
+        padding: 9%;
         color: #000000;
     }
     #address li {
@@ -372,5 +372,26 @@ h1 {
         font-size: 27px;
         font-weight: 600;
         text-align: right;
+    }
+    .btn.contact-us {
+        font-size: 20px;
+    }
+    .form-control {
+        width: 100%;
+        display: block;
+    }
+    #exampleFormControlInput1 {
+        height: 40px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #exampleFormControlInput2 {
+        height: 40px;
+        width: 80%;
+        margin: auto;
+    }
+    .navbar-toggler {
+        font-size:10px;
     }
 }
