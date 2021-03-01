@@ -149,14 +149,14 @@ footer {
 
 /*Gallery*/
 
-#photo {
+.photos {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
 }
 
-#photo img {
+.photos img {
     width: 100%;
 }
 
@@ -331,7 +331,7 @@ h1 {
     .third {
         display: none;
     }
-    #photo {
+    .photos {
         clear: both;
         line-height: 0;
         column-count: 2;
