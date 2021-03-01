@@ -133,7 +133,7 @@ My final design was slightly altered due to various factors but I am happier wit
 
 * When testing the social media icons, I clicked on them and they opened up the corresponding social media platform on a new page which is what I expected to happen so I knew that they worked.
 
-* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator.png) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved. The HTML passed the [validator](assets/images/htmlvalidatorpass.png). I tested each page of my website in the HTML validator. The [gallery] *******, [signup](assets/images/signuphtmlvalidator.png) , [timetable](assets/images/timetablehtmlvalidator.png) can be seen.
+* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator.png) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved. The HTML passed the [validator](assets/images/htmlvalidatorpass.png). I tested each page of my website in the HTML validator. The [gallery](assets/images/galleryhtmlvalidator.png) , [signup](assets/images/signuphtmlvalidator.png) , [timetable](assets/images/timetablehtmlvalidator.png) can be seen.
 
 
 * My [CSS](assets/images/CSSvalidator.png) passed all the tests using the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator).
@@ -144,38 +144,38 @@ I have checked off each of my user stories to ensure I have made my website suit
 
 As a new customer:
 1. I want to read information on the type of karate learnt as this company 
-   * Index page has information on what karate is, what is expected and the benefits. 
+   * Index page has information on what karate is, what is expected and the benefits which can be seen [here](assets/images/UX1.png) 
 2. I want to see photographs to give me an idea of what to expect within the premises
-   * Gallery page contains a collage of up to date images.
+   * Gallery page contains a collage of up to date images shown [here](assets/images/UX2.png)
 3. I want to be able to see a timetable with classes and times.
-   * Classes page has a timetable with days/times/type of class.
+   * Classes page has a timetable with days/times/type of class [shown](assets/images/UX3.png)
 4. I want a form which is easy to use where i can sign up for lessons
-   * Sign up page contains a form to enquire about signing up.
+   * Sign up page contains a form to enquire about signing up shown [here](assets/images/UX4.png)
 5. I want to be able to return to the homepage quickly and easily
-   * Nav bar across all pages contains a logo which when clicked links back to the homepage.
+   * Nav bar across all pages contains a logo which when clicked links back to the homepage shown [here](assets/images/UX5.png)
 6. I need to have a contact telephone number and address
-   * Home page contains contact information including map with address.
+   * Home page contains contact information including map with address can be seen [here](assets/images/UX6.png)
 7. I want to visit the social media pages for various different platforms
-   * Footer of each page contains a an icon which when clicked links to the corresponding social media page.
+   * Footer of each page contains an icon which when clicked links to the corresponding social media page shown [here](assets/images/UX7.png). The corresponding social media page will open in a new [page](assets/images/UX8.png)
 
 As a returning customer I want:
 1. To see the times and dates of upcoming classes
-   * Classes page has a timetable with days/times/type of class.
+   * Classes page has a timetable with days/times/type of class [shown](assets/images/UX3.png)
 2. Updated photographs from recent classes and competitions
-   * Gallery page contains a collage of up to date images.
+   * Gallery page contains a collage of up to date images can be seen [here](assets/images/UX2.png)
 3. To have a contact telephone number
-   * Home page contains contact information including map with address.
+   * Home page contains contact information including map with address shown [here](assets/images/UX6.png)
 
 
 As a parent of customers I need:
 1. To know the instructors are qualified and trustworthy
-   * Home page has information on instructors with images.
+   * Home page has information on instructors with images can be [seen](assets/images/UX9.png)
 2. The premises are safe to carry out karate classes
-   * Gallery contains images showing inside the dojo with equipment.
+   * Gallery contains images showing inside the dojo with equipment can be seen [here](assets/images/UX2.png)
 3. To see the timetable of my childrens classes
-   * Classes page has a timetable with days/times/type of class.
+   * Classes page has a timetable with days/times/type of class can be seen [here](assets/images/UX3.png)
 4. To have an address and contact number
-   * Home page contains contact information including map with address.
+   * Home page contains contact information including map with address can be seen [here](assets/images/UX6.png)
 
 
 I am happy that I have met all the wants and needs of different users who will avail of my webpage. I have also met my own goals as a developer.  
