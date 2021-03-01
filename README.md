@@ -2,8 +2,8 @@
 
 ![image of cobra kai](https://tv-fanatic-res.cloudinary.com/iu/s--jnyrsA_x--/f_auto,q_auto/v1529616090/cobra-kai-banner)
 
- This project was designed to allow younger age groups to learn more about karate and hopefully sign up to lessons. This webpage will allow users to read about karate, Cobra Kai in particular, look at the gallery, see timetables for lessons and to sign up for classes if they wish.
-As the developer I designed this project following watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
+ This project was designed to allow younger age groups to learn more about karate and hopefully sign up to lessons. This website will allow users to read about karate, Cobra Kai in particular, look at the gallery, see timetables for lessons and to sign up for classes if they wish.
+As the developer I designed this project after watching the new Netflix TV series, Cobra Kai. I would like for younger kids to have a platform to learn more about Cobra Kai, view photos and hopefully come to learn!
 
 # Contents
 
@@ -53,7 +53,7 @@ As a developer I want:
 4. A collage of photos in a gallery which encourage customers to sign up
 5. A Navigation bar which will be simple for customers to follow and become responsive depending on the device its being viewed on.
 
-I hope this project will provide all users with 4 pages including a home page packed with information, a gallery page, timetable and a signup form.
+This project will provide all users with 4 pages including a home page packed with information, a gallery page, timetable and a signup form.
 
 # Wireframes
 
@@ -64,10 +64,14 @@ https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%
 
 When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed. I was not going to use bootstrap initially but then became confident in using it so the layout of a few things changed in my final project from my wireframes.
 
+My final design was slightly altered due to various factors but I am happier with the outcome.
+![Responsive](assets/images/responsiveimg.png)
+
 
 # Features
-* Logo of the company which when clicked will return the user to the index.html page
-* Navigation bar which when hovered over will underline each page and will keep the page the user is on underlined
+* Logo of the company which when clicked will return the user to the homepage
+* User will always know which page they are on since it will be underlined in the navigation bar
+* Navigation bar which when hovered over will underline each page
 * Social media icons which when clicked will take the user to a new page and open up the social media page
 * Consistent header and footers along each page of the webpage
 * Photos and descriptions of instructors and current champion
@@ -93,7 +97,7 @@ When building my web page I did make some changes which now differ to my wirefra
 # Bugs Discovered
 
 * ## Index.html
-    * Images were square so I changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which is [here](assets/images/border-radius-after.png).
+    * Images were square so I changed this to make it more visually appealing using chrome dev tools. [Without border radius](assets/images/border-radius.png) and then I added a border radius of 50% which can be seen [here](assets/images/border-radius-after.png).
 
     * The margin between the social media links were too close together so using dev tools I played around with the padding size and found one that worked [here](assets/images/social-media-icons-after.png).
 
@@ -101,7 +105,7 @@ When building my web page I did make some changes which now differ to my wirefra
 
 * ## Signup.html
 
-    * My submit button would not align into the center. I used dev tools to see if I could align it but I then had to align my parent DIV centrally and the button then [aligned](assets/images/submitbutton.png).
+    * My submit button would not align into the center. I used dev tools to see if I could align it but I then had to align my parent DIV centrally and the button afterwards [aligned](assets/images/submitbutton.png).
 
 
    * Table layout from bootstrap did not work correctly when then scaled down to my mobile breakpoint.
@@ -113,9 +117,9 @@ When building my web page I did make some changes which now differ to my wirefra
 
    * General bugs throughout my pages were layout issues on different devices and I fixed these by using margins and paddings which can be seen in my CSS. 
 
-   * When viewing my website on my own mobile, layout on the index.html page did not look right, there was padding around the second P element. I took this out to make the page more consistent on small devices [here](assets/images/mobileviewmargin.png).
+   * When viewing my website on my own mobile, layout on the index.html page did not look right, there was padding around the second paragraph tag. I took this out to make the page more consistent on small devices [here](assets/images/mobileviewmargin.png).
 
-   * Instructor paragraphs viewed on my mobile looked too big, i changed the font size and it worked much better from 20px to 13px [here](assets/images/fontsizemobile.png).
+   * Instructor paragraphs viewed on my mobile looked too big, I changed the font size and it worked much better from 20px to 13px [here](assets/images/fontsizemobile.png).
 
 
 # Testing
@@ -129,7 +133,7 @@ When building my web page I did make some changes which now differ to my wirefra
 
 * When testing the social media icons, I clicked on them and they opened up the corresponding social media platform on a new page which is what I expected to happen so I knew that they worked.
 
-* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator.png) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved. The HTML passed the [validator](assets/images/htmlvalidatorpass.png). I tested each page of my website in the HTML validator. The [gallery] , [signup](assets/images/signuphtmlvalidator.png) , [timetable](assets/images/timetablehtmlvalidator.png)
+* I tested my HTML using the validator and initially there was an issue with a child element. [This](assets/images/htmlvalidator.png) was fixed as I had put the li and ul element in the wrong way and when this was fixed the issue was resolved. The HTML passed the [validator](assets/images/htmlvalidatorpass.png). I tested each page of my website in the HTML validator. The [gallery] *******, [signup](assets/images/signuphtmlvalidator.png) , [timetable](assets/images/timetablehtmlvalidator.png) can be seen.
 
 
 * My [CSS](assets/images/CSSvalidator.png) passed all the tests using the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator).
@@ -165,15 +169,16 @@ As a returning customer I want:
 
 As a parent of customers I need:
 1. To know the instructors are qualified and trustworthy
-    * Home page has information on instructors with images.
+   * Home page has information on instructors with images.
 2. The premises are safe to carry out karate classes
-    * Gallery contains images showing inside the dojo with equipment.
+   * Gallery contains images showing inside the dojo with equipment.
 3. To see the timetable of my childrens classes
-    * Classes page has a timetable with days/times/type of class.
+   * Classes page has a timetable with days/times/type of class.
 4. To have an address and contact number
-    * Home page contains contact information including map with address.
+   * Home page contains contact information including map with address.
 
-    I am happy that I have met all the wants and needs of different users who will avail of my webpage. I have also met my own goals as a developer.  
+
+I am happy that I have met all the wants and needs of different users who will avail of my webpage. I have also met my own goals as a developer.  
 
 
 
