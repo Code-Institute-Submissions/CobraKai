@@ -389,4 +389,7 @@ h1 {
     .navbar-toggler {
         font-size:10px;
     }
+    .table {
+        font-size:15px;
+    }
 }
