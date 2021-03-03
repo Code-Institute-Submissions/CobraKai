@@ -21,6 +21,19 @@ As the developer I designed this project after watching the new Netflix TV serie
 * Credits
 * Awknowledgements
 
+# Development
+ To get set up for developing :
+1. Clone the repository `git clone https://github.com/ShannonD7833/CobraKai.git`
+2. Change into project directory `cd CobraKai`
+3. Run the server 
+   * VS code
+      * Install [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+      * Go to "View > Command Palette" and type "Live server" and select "Open with live server"
+   * Python HTTP server
+      * Python 2 `python -m SimpleHTTPServer 5500`
+      * Python 3 `python3 -m http.server 5500`
+4. Open http://localhost:5500 
+
 
 # UX
 The target audience for this project is aimed at teenagers. It will also include parents of these children who wish to sign up for karate.
@@ -184,9 +197,22 @@ I am happy that I have met all the wants and needs of different users who will a
 
 
 
+
 # Deployment
--to github pages
--how to run project within a coding environment
+## GitHub Pages
+Pushing a new commit to the `master` branch triggers a new deployment to github pages.
+
+Website available on https://shannond7833.github.io/CobraKai/
+
+### Set up deployment to Github pages
+
+1. Log in to GitHub and locate the Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None", choose the Branch `master` and choose `/(root)` as the folder to serve the static website from.
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
 
 # Credits
 
