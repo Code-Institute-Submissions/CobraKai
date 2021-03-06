@@ -71,9 +71,11 @@ This project will provide all users with 4 pages including a home page packed wi
 # Wireframes
 
 I used [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9bmABhBbEiwASb35VwUP86nusbRkDn2_oK45Wc06sE-LKld8DUd5znTuQObwilsvALXI5RoCda0QAvD_BwE) for my project wireframes.
+
 Below is a link to my wireframes for all three pages of my website. 
 
-https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/CobraKai%20wireframes%20pdf.pdf
+[Wireframes can be viewed here.](https://github.com/ShannonD7833/CobraKai/blob/master/assets/wireframes/cobrakaiwireframes.pdf)
+
 
 When building my web page I did make some changes which now differ to my wireframes. Using dev tools showed me better ways to present my project and so the final project may be different to the original wireframes designed. I was not going to use bootstrap initially but then became confident in using it so the layout of a few things changed in my final project from my wireframes.
 
@@ -231,7 +233,7 @@ Credit for images used
 
 * I received inspiration for this project from the TV series, Cobra Kai on [Netflix](www.netflix.com).
 
-* Special thanks to [Christopher Temple](https://github.com/christemple) for his support and knowledge!
+* Special thanks to [Christopher Temple](https://github.com/christemple) for his support and knowledge and the tutors at [Code Institute](https://codeinstitute.net/) for helping me with issues!
 
 
 
